@@ -6,5 +6,5 @@ Need:
 
 	<li> add to ~/.bashrc: ". ~/common-cfg/configs/bashrc" </li>
 
-	<li> add to ~/.config/awesome/rc.lua : " beautiful.init("/home/lol/common-cfg/configs/awesome/themes/dust/theme.lua") "</ul>li>
+	<li> add to ~/.config/awesome/rc.lua : " beautiful.init("/home/lol/common-cfg/configs/awesome/themes/dust/theme.lua") "</li>
 </ul>
