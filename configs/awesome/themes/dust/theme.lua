@@ -21,7 +21,8 @@ if not awful.util.file_readable(themes .. themename .. "/theme.lua") then
 end
 themedir      = themes .. themename
 
-wallpaper1    = themedir .. "/background.jpg"
+--wallpaper1    = themedir .. "/background.jpg"
+wallpaper1    = "/home/atg/common-cfg/data/background.jpg"
 wallpaper2    = themedir .. "/background.png"
 wallpaper3    = sharedthemes .. "/zenburn/zenburn-background.png"
 wallpaper4    = sharedthemes .. "/default/background.png"
@@ -44,7 +45,7 @@ end
 theme.font          = "liberation sans 8"
 
 theme.bg_normal     = "#22222200"
-theme.bg_focus      = "#908884"
+theme.bg_focus      = "#90888466"
 theme.bg_urgent     = "#cd7171"
 theme.bg_minimize   = "#444444"
 

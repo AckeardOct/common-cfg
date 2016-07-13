@@ -19,7 +19,7 @@ PS1='\[\e[0;32m\]\u::\[\e[m\]\[\e[1;34m\]\W\[\e[m\] \[\e[1;32m\]\$\[\e[m\] '
 #PS1="\$? \$(if [[ \$? == 0 ]]; then echo \"\[\033[0;32m\];)\"; else echo \"\[\033[0;31m\];(\"; fi)\[\033[00m\] : "
 
 #####      ENV     ######
-PATH=$PATH:~/custom/bin
+PATH=$PATH:~/common-cfg/bin
 export PATH
 
 ### COMPLETE ###

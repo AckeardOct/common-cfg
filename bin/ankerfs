@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ankerFolder=~/anker
+
+if ! test $ankerFolder
+then
+	mkdir $ankerFolder
+fi
+
+sshfs anker@192.168.1.101:/ $ankerFolder -o allow_other
