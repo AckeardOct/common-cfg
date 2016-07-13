@@ -1,6 +1,8 @@
-Common-cfg
+<h1>Common-cfg</h1>
 
 Need:
-	1. ln -s ~/common-cfg/configs/awesome/themes/dust ~/.config/awesome/themes/
+<ul>
+	<li> ln -s ~/common-cfg/configs/awesome/themes/dust ~/.config/awesome/themes/ </li>
 
-	2. add to ~/.bashrc: ". ~/common-cfg/configs/bashrc" 
+	<li> add to ~/.bashrc: ". ~/common-cfg/configs/bashrc" </li>
+</ul>
