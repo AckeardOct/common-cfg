@@ -1,0 +1,35 @@
+### HISTORY ###
+shopt -s histappend
+PROMT_COMMAND='history -a'
+HISTSIZE=10000
+export HISTCONTROL=ignoredups
+
+### CD ###
+shopt -s autocd
+shopt -s cdspell
+shopt -s dirspell
+shopt -s globstar
+
+### COLORS ###
+#PS1='\[\e[1;32m\][\u@\h \W]\$\[\e[0m\] '
+
+PS1='\[\e[0;32m\]\u::\[\e[m\]\[\e[1;34m\]\W\[\e[m\] \[\e[1;32m\]\$\[\e[m\] '
+#\[\e[1;37m\]'
+
+#PS1="\$? \$(if [[ \$? == 0 ]]; then echo \"\[\033[0;32m\];)\"; else echo \"\[\033[0;31m\];(\"; fi)\[\033[00m\] : "
+
+#####      ENV     ######
+PATH=$PATH:~/custom/bin
+export PATH
+
+### COMPLETE ###
+complete -cf sudo
+complete -cf man
+complete -cf killall
+complete -cf whereis
+complete -cf which
+complete -cf nohup
+
+### ALIAS ###
+alias pacman='sudo pacman'
+alias wifi-menu='sudo wifi-menu'

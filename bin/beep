@@ -1,0 +1,3 @@
+#!/bin/bash 
+
+aplay ~/custom/data/sounds/beep.mp3
