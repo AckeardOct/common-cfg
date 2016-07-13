@@ -7,7 +7,7 @@ awful.util = require("awful.util")
 theme = {}
 
 home          = os.getenv("HOME")
-config        = awful.util.getdir("config")
+config        =  awful.util.getdir("config")
 shared        = "/usr/share/awesome"
 if not awful.util.file_readable(shared .. "/icons/awesome16.png") then
     shared    = "/usr/share/local/awesome"
